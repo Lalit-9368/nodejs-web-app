@@ -27,7 +27,7 @@
     "html-loader": "^2.1.2",
     "loadtest": "^5.1.2",
     "mocha": "^8.1.3",
-    "mochawesome": "^1.5.5",
+    "mochawesome": "^7.1.4",
     "regenerator-runtime": "^0.13.7",
     "webpack": "^5.31.2",
     "webpack-cli": "^4.6.0",

@@ -1,0 +1,11 @@
+FROM node:16
+
+WORKDIR /opt/app/server
+
+COPY server/package*.json ./
+
+RUN npm install
+
+COPY server/ .
+
+
