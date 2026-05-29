@@ -1,4 +1,4 @@
-FROm node:16
+FROM node:16
 
 COPY --chown=node:node . /opt/app
 
