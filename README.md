@@ -1,4 +1,4 @@
-# 🚀 Creating a Full CI/CD Pipeline on AWS with Jenkins, GitHub, Docker, Terraform, and Slack
+# Creating a Full CI/CD Pipeline on AWS with Jenkins, GitHub, Docker, Terraform, and Slack
 
 ## Introduction
 
@@ -10,7 +10,7 @@ Whenever code is pushed to GitHub, Jenkins automatically triggers the pipeline, 
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * AWS EC2
 * AWS S3
@@ -287,7 +287,7 @@ project-root/
 
 ---
 
-# 🎯 Conclusion
+#  Conclusion
 
 This project demonstrates how different DevOps tools can work together to automate the software delivery process.
 
