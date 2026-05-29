@@ -1,7 +1,7 @@
 # Production Repository
 
 resource "aws_ecr_repository" "nodejs-web-app" {
-  name = "nodejs-web-app"
+  name                 = "nodejs-web-app"
   image_tag_mutability = "MUTABLE"
 
   image_scanning_configuration {
@@ -16,7 +16,7 @@ resource "aws_ecr_repository" "nodejs-web-app" {
 # Staging Repository
 
 resource "aws_ecr_repository" "nodejs-web-app-staging" {
-  name = "nodejs-web-app-staging"
+  name                 = "nodejs-web-app-staging"
   image_tag_mutability = "MUTABLE"
 
   image_scanning_configuration {
@@ -31,7 +31,7 @@ resource "aws_ecr_repository" "nodejs-web-app-staging" {
 # Test Repository
 
 resource "aws_ecr_repository" "nodejs-web-app-test" {
-  name = "nodejs-web-app-test"
+  name                 = "nodejs-web-app-test"
   image_tag_mutability = "MUTABLE"
 
   image_scanning_configuration {

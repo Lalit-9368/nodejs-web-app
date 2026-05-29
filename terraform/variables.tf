@@ -11,8 +11,8 @@ variable "aws-region" {
 }
 
 variable "ami-id" {
-    type = string
-  }
+  type = string
+}
 
 variable "admin-username" {
   type = string

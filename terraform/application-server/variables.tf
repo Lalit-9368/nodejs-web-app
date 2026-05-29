@@ -31,3 +31,59 @@ variable "device-index" {
 variable "repository-url" {
   type = string
 }
+
+variable "repository-test-url" {
+  type    = string
+  default = ""
+}
+
+variable "repository-staging-url" {
+  type    = string
+  default = ""
+}
+
+variable "bucket-logs-name" {
+  type    = string
+  default = ""
+}
+
+variable "admin-username" {
+  type    = string
+  default = ""
+}
+
+variable "admin-password" {
+  type      = string
+  default   = ""
+  sensitive = true
+}
+
+variable "admin-fullname" {
+  type    = string
+  default = ""
+}
+
+variable "admin-email" {
+  type    = string
+  default = ""
+}
+
+variable "remote-repo" {
+  type    = string
+  default = ""
+}
+
+variable "job-name" {
+  type    = string
+  default = ""
+}
+
+variable "job-id" {
+  type    = string
+  default = ""
+}
+
+variable "bucket-config-name" {
+  type    = string
+  default = ""
+}
